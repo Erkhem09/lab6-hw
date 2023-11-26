@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #000;
+            height: 100vh;
+        }
+        .project{
+            background-color: #222;
+            padding: 20px;
+            width: 500px;
+            border-radius: 5px;
+        }
+        .utga1 input {
+            width: 230px;
+            height: 50px;
+            font-size: 25px;
+            background-color: #222;
+            border-color: #000;
+            color: #fff;
+            border-radius: 5px;
+        }
+        .utga1 p{
+            font-size: 35px;
+            margin-bottom: 5px;
+            color: #fff;
+            border: 1px solid #f28c28;
+            border-radius: 5px;
+            width :90px;
+            background-color: #f28c28;
+        }
+        .toirog input {
+            width: 230px;
+            height: 50px;
+            font-size: 25px;
+            font-family: bold;
+            background-color: #222;
+            border-color: #000;
+            color: #fff;
+            border-radius: 5px;
+        }
+        .toirog p{
+            font-size: 35px;
+            margin-bottom: 5px;
+            font-family: bold;
+            border: 1px solid #f28c28;
+            color: #fff;
+            border-radius: 5px;
+            width :130px;
+            background-color: #f28c28;
+        }
+        button {
+            border-radius: 5px;
+            width: 100px;
+            height: 30px;
+            margin-top: 25px;
+            font-size: 20px;
+            background-color: #f28c28;
+            color: #fff;
+            margin-left: 10px;
+        }
+        .hariult { 
+            font-size: 20px;
+            border: 2px solid #222;
+            width: 150px;
+            border-radius: 5px;
+            color: #fff;
+            background: #f28c28;
+        }
+        h3 {
+            font-size: 40px;
+            color: #fff;
+            border: 1px solid #f28c28;
+            border-radius: 5px;
+            background-color: #f28c28;
+        }
+    </style>
+</head>
+<body>
+    <div class="project">
+        <h3>Тоо, тойргийн тоо:</h3>
+        <div class="utga1">
+            <p>Тоо:</p>
+            <input type="number">
+        </div>
+        <div class="toirog">
+            <p>Тойрог:</p>
+            <input type="number">
+        </div>
+        <button onclick="hariu1()">Calculate</button>
+        <button onclick="clear1()">Clear</button>
+        <p class="hariult">Answer:</p>
+        
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
